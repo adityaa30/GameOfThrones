@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game of Thrones</string>
+    <string name="search_text_hint">Enter a character name</string>
+    <string name="character_name_list_item_sample">Tyrion Lannister</string>
+    <string name="house_name_list_item_sample">House Lannister</string>
+    <string name="character_title_list_item_sample">Acting Hand of the King (former), Master of coin (former), Lord of Casterly Rock (claimant)</string>
+    <string name="location">Locations:</string>
+    <string name="mother_name">Mothers Name:</string>
+    <string name="father_name">Father Name:</string>
+    <string name="not_available">Not Available</string>
+</resources>

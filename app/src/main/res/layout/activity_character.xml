@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/character_activity_thumbnail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:scaleType="centerCrop"
+                android:src="@raw/default_pic"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:id="@+id/character_activity_character_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/character_name_list_item_sample"
+                    android:textSize="24dp"
+                    android:fontFamily="sans-serif"/>
+
+                <TextView
+                    android:id="@+id/character_activity_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/house_name_list_item_sample"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_activity_character_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/character_title_list_item_sample"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mother_name"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/character_activity_mother_name"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_available"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:paddingTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/father_name"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/character_activity_father_name"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_available"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:paddingTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/character_activity_locations"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_available"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</ScrollView>
